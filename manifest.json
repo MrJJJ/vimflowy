@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "contentscript.js" ],
+      "matches": [ "https://workflowy.com/*" ]
+   } ],
+   "description": "Vim shortcuts for Workflowy",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+9FmOsN60SDGbnO2ELvFIWX/qwU7695MtFwCBks9Uc8P6jV4EhKun+X0IZS4u4nflcscfGi/CuQdN7YyJzsvrKlLg03kNm8CcOhCmaryeI16BfgN9IP6Xqmkg3VUkGlTGeiJGWznDxnUr/qLt1K6HXX3+Fb62Fqlui86squrPzwIDAQAB",
+   "manifest_version": 2,
+   "name": "Vimflowy",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.3",
+   "web_accessible_resources": [ "jquery-simulate-ext/libs/bililiteRange.js", "jquery-simulate-ext/libs/jquery.simulate.js", "jquery-simulate-ext/src/jquery.simulate.ext.js", "jquery-simulate-ext/src/jquery.simulate.key-sequence.js", "functions.js", "vimflowy.js" ]
+}
