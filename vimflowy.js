@@ -32,8 +32,12 @@ var insertKeybindings = {
 };
 
 var alwaysKeybindings = {
-    "alt+l": commands.zoomInFold,
-    "alt+h": commands.zoomOutFold,
+    //"alt+l": commands.zoomInFold,
+    //"alt+h": commands.zoomOutFold,
+	"z": commands.zoomInFold,
+	"Z": commands.zoomOutFold,
+	"ctrl+l": commands.zoomInFold,
+	"ctrl+h": commands.zoomOutFold,
 
     "alt+shift+l": commands.doIndent,
     "alt+shift+h": commands.doDedent,
